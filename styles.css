@@ -1,4 +1,37 @@
 /* Тут пиши основные стили */
+
+nav img{
+    width: 97px;
+    margin: 10px auto 10px 38px;
+}
+
+menu{
+    padding: 0;
+    margin: 0;
+    background-color: #faf9f8;
+    border-bottom: 1px #000000 solid;
+    border-top: 1px #000000 solid;
+}
+menu ul{
+    padding: 0px;
+    margin-left: 8px;
+    list-style: none;
+}
+menu li{
+    cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@0.5x.png"), auto;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    margin-left: 30px;
+    display: inline;
+}
+
+.red{
+    color:#d0021b;
+}
+
 h1, h2 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size: 42px;
