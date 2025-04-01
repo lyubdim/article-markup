@@ -7,7 +7,8 @@ nav img{
 
 menu{
     padding: 0;
-    margin: 0;
+    margin-right: -8px;
+    margin-left: -8px;
     background-color: #faf9f8;
     border-bottom: 1px #000000 solid;
     border-top: 1px #000000 solid;
@@ -18,7 +19,8 @@ menu ul{
     list-style: none;
 }
 menu li{
-    cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@0.5x.png"), auto;
+    /* cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@0.5x.png"), auto; */
+    cursor: pointer;
     font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size:24px;
     color:#333333;
@@ -26,6 +28,9 @@ menu li{
     line-height:36px;
     margin-left: 30px;
     display: inline;
+}
+menu li:hover{
+    text-decoration:underline;
 }
 
 .red{
@@ -73,4 +78,50 @@ code {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
+    .block {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 95px;
+    }
+
+    menu li{ 
+        line-height:40px; 
+        font-size:30px; 
+        margin-left: 20px; 
+        margin-top: 10px; 
+        display: list-item; 
+    } 
+    menu ul{ 
+        margin: 0 auto 10px 0; 
+    } 
+    nav img{ 
+        height: 64px; 
+        width: 101px; 
+        margin: 10px auto 10px 20px; 
+    } 
+    main h1{ 
+        font-size: 26px; 
+        line-height:28px; 
+        margin-bottom: 20px; 
+    } 
+    main h2{ 
+        margin-top: 25px; 
+        margin-bottom: 6px; 
+        font-size: 22px; 
+        line-height:39px; 
+    } 
+    main p{ 
+        font-size: 18px; 
+        line-height:22px; 
+    } 
+    main{ 
+        width: 520px; 
+    } 
+    img{ 
+        margin-top:25px; 
+        margin-bottom: 25px; 
+    } 
+    .code{ 
+        font-size: 18px; 
+    }
 }
